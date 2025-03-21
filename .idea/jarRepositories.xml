@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="oracle" />
+      <option name="name" value="oracle" />
+      <option name="url" value="https://nexus.telefonica.com.br/repository/oracle" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="apache.org" />
+      <option name="name" value="apache.org" />
+      <option name="url" value="https://nexus.telefonica.com.br/repository/apache.org" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven-central" />
+      <option name="name" value="maven-central" />
+      <option name="url" value="https://nexus.telefonica.com.br/repository/maven-central" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="common-domain-mvn" />
+      <option name="name" value="common-domain-mvn" />
+      <option name="url" value="https://nexus.telefonica.com.br/repository/common-domain-mvn/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="b2b-canaisdigitais-nvm" />
+      <option name="name" value="b2b-canaisdigitais-nvm" />
+      <option name="url" value="https://nexus.telefonica.com.br/repository/b2b-canaisdigitais-nvm/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ms-common-domain-mvn" />
+      <option name="name" value="ms-common-domain-mvn" />
+      <option name="url" value="https://nexus.telefonica.com.br/repository/ms-common-domain-mvn/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="central" />
+      <option name="url" value="https://nexus.telefonica.com.br/repository/maven-central" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.org" />
+      <option name="name" value="jboss.org" />
+      <option name="url" value="https://nexus.telefonica.com.br/repository/jboss.org" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="archetype" />
+      <option name="name" value="archetype" />
+      <option name="url" value="https://nexus.telefonica.com.br/repository/maven-public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="framework-brasil-mvn" />
+      <option name="name" value="framework-brasil-mvn" />
+      <option name="url" value="https://nexus.telefonica.com.br/repository/framework-brasil-mvn/" />
+    </remote-repository>
+  </component>
+</project>
