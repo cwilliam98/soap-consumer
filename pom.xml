@@ -60,30 +60,30 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.cxf</groupId>
-				<artifactId>cxf-codegen-plugin</artifactId>
-				<version>4.0.3</version>
-				<executions>
-					<execution>
-						<id>generate-sources</id>
-						<goals>
-							<goal>wsdl2java</goal>
-						</goals>
-						<configuration>
-							<wsdlOptions>
-								<wsdlOption>
-									<wsdl>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL</wsdl>
-									<extraargs>
-										<extraarg>-p</extraarg>
-										<extraarg>br.com.cw.soap.consumer.domain</extraarg>
-									</extraargs>
-								</wsdlOption>
-							</wsdlOptions>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
+<!--			<plugin>-->
+<!--				<groupId>org.apache.cxf</groupId>-->
+<!--				<artifactId>cxf-codegen-plugin</artifactId>-->
+<!--				<version>4.0.3</version>-->
+<!--				<executions>-->
+<!--					<execution>-->
+<!--						<id>generate-sources</id>-->
+<!--						<goals>-->
+<!--							<goal>wsdl2java</goal>-->
+<!--						</goals>-->
+<!--						<configuration>-->
+<!--							<wsdlOptions>-->
+<!--								<wsdlOption>-->
+<!--									<wsdl>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL</wsdl>-->
+<!--									<extraargs>-->
+<!--										<extraarg>-p</extraarg>-->
+<!--										<extraarg>br.com.cw.soap.consumer.domain</extraarg>-->
+<!--									</extraargs>-->
+<!--								</wsdlOption>-->
+<!--							</wsdlOptions>-->
+<!--						</configuration>-->
+<!--					</execution>-->
+<!--				</executions>-->
+<!--			</plugin>-->
         </plugins>
     </build>
 
